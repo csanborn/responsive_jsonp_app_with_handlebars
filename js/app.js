@@ -1,6 +1,8 @@
 'use strict';
 
 function myAppInit(data){
+	// jsonp callback calls this function
+	
 	myApp.init(data);
 }
 
@@ -28,7 +30,6 @@ var myApp = {
 
 		for(var i = 0; i < self.initialLoad && self.loaded < self.dataLength; i++, self.loaded++){
 		 	article = document.createElement('article');
-		 	// article.className = "expanded";
 		 	article.innerHTML = template(self.data[self.loaded]);
 		 	frag.appendChild(article);
 		}
