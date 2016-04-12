@@ -1,6 +1,3 @@
 # responsive_jsonp_app_with_handlebars
 
-This is a project that uses jsonp to fetch a news feed and display it on a page.
-It's written in plain javascript and Handlebars.
-The responsive layout uses css columns and media queries.
-The user can expand or collapse each article and fetch more articles from the feed.
+Task: create a responsive layout of a Wordpress feed utilizing jsonp. The app uses plain javascript and Handlebars as well as css columns and media queries. There's a click listener on the document that handles the various button events. The story excerpt is spread across one column and the full story uses a maximum of four columns. The text change for the expand/collapse button is handled through the :after pseudo class. This is optimized for Chrome.
